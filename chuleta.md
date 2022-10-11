@@ -19,5 +19,5 @@ Comando    | Argumentos              | Función
 **cd**     | &lt;dir>                | Cambia de directorio (*'cd -': directorio previo*).
 **ls**     | [-l] [-a]               | Muestra los archivos del directorio *(l: detallado; a: incluye ficheros ocultos).*
 **rm**     | &lt;file>               | Elimina un fichero.
-**mv**     | &lt;source> &lt;dest>   | Mueve o renombra un archivo.
+**mv**     | &lt;source> &lt;dest>   | Mueve o renombra un archivo. Source es el nombre del fichero a cambiar. En destino se especificará a dónde se quiere mover o el nombre nuevo del archivo o carpeta.
 
