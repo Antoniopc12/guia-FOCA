@@ -1,6 +1,6 @@
 ### Chuleta de control de versiones con git
 
-## Qué tenemos que saber hacer con Git (y GitHub)
+## 2. Comandos
 
 ### 2.1. Comandos básicos del terminal
 
