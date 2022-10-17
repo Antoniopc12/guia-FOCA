@@ -77,7 +77,7 @@ Si queremos enviar todas las ramas de nuestro repo local al remoto:
 * *git push --all -u*
 
 En caso de que a rama no esté creada en el repo remoto todavía:
-* *git push --set-upstream origin oscar*
+* *git push --set-upstream origin nombre_rama*
 
 ### Incorporar a ramas locales cambios que se producen en el repositorio remoto:
 Usaremos : *git pull origin nombre_rama_remota*
