@@ -49,10 +49,14 @@ Para ello abriremos git-bash en el directorio que queramos clonar el repositorio
 En este caso tenemos dos posibles opciones en función de nuestras necesidades:
 	
 1. Clonar el repositorio con *git clone* (solo lo podemos hacer si es la primera vez).
-1. En el caso de que ya tengamos un repositorio local clonado de uno remoto y queramos copiar 
-los cambios del repo remoto a nuestro repo local para actualizarlo, haremos: *git pull REMOTE-NAME BRANCH-NAME*
+1. En el caso de que ya tengamos un repositorio local clonado de uno remoto y queramos copiar los cambios del repo remoto a nuestro repo local para actualizarlo, haremos: *git pull origin BRANCH-NAME*
 
 ## Resolver los conflictos que se puedan producir al traerse estos cambios:
+Puede haber solape entre lo que se cambió en el repo central y lo que nosotros hemos hecho en local, esto crea un conflicto al hacer el "pull".
+La solución:
+1. Hacer:  *git stash save* (stash nos permite guardar los cambios locales que no pasamos a commit en un universo medio paralelo)
+1. Hacer ahora: *git pull*
+1. Finalmente: *git stash pop*
 
 ## Enviar los cambios de un repositorio local a uno remoto:
 Los pasos a realizar son tres:
@@ -64,7 +68,7 @@ Los pasos a realizar son tres:
 Es posible que al hacer un commit nos de un error por no estar identificados, en ese caso introduciremos:
 
 * *git config --global user.name NombreDeUsuarioGit*
-* *git config --global user.email NuestroCorreoGit@correo.com*.
+* *git config --global user.email NuestroCorreoGit@correo*
 
 También podemos comprobar el estado del repo antes y despues de la operación con *git status*
 
