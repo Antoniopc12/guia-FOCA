@@ -12,8 +12,6 @@ Comando           | Argumentos                                                  
 **git reset**     |                                                                                      | Deshacer la operación de preparar.
 **git revert**    |                                                                                      | Deshacer la operación de confirmar.
 **git status**    | 			                                                                     | Identificar el estado de un fichero o ficheros en un repositorio local
-**git checkout**  | &lt;Numero hash del commit deseado>                                                  | Descartar los cambios de un fichero de trabajo mediante la recuperación de una versión almacendada en el repositorio local.
+**git restore**   | &lt;Archivo>                                                  				   | Descartar los cambios de un fichero de trabajo mediante la recuperación de una versión almacendada en el repositorio local.
 **git branch**    | &lt;Nombre de la rama>                                                               | Crea una nueva rama local.
 **git switch**    | &lt;Nombre de la rama>                                                               | Cambia a otra rama local.
-
-git restore "Vuelve al co
