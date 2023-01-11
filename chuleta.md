@@ -125,7 +125,7 @@ Comando           | Argumentos                                                  
 ------------------|--------------------------------------------------------------------------------------|-----------------------------
 **git init**      |                                                                                      | Al ejecutar este comando, se creará un nuevo subdirectorio .git en tu directorio de trabajo actual. También se creará una nueva rama principal..
 **git add**       | &lt;file/files>                                				               | Prepara los archivos para ser confirmados en un repositorio local.
-**git commit**    | &lt;Hacer -help para ver todos los argumentos (Nosotros estamos usando -m "Mensaje"> | Confirma los cambios del repositorio local y agrega un mensaje informativo sobre el archivo.
+**git commit**    | &lt; -m "(Información que quieras poner para identificar el commit)" [Puedes hacer -help para ver todos los argumentos] > | Confirma los cambios del repositorio local y agrega un mensaje informativo sobre el archivo.
 **git reset**     |                                                                                      | Deshacer la operación de preparar.
 **git reset**    	| &lt; --hard (Retrocedemos un commit y borramos los cambios) ó --soft (retrocedemos un commit pero no perdemos los cambios y se quedan almacenados para un futuro commit) HEAD~1>                                                                                     | Deshacer la operación de confirmar.
 **git status**    | 			                                                                     | Identificar el estado de un fichero o ficheros en un repositorio local
