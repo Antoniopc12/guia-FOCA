@@ -124,13 +124,15 @@ Comando    | Argumentos              | Función
 Comando           | Argumentos                                                                           | Función 
 ------------------|--------------------------------------------------------------------------------------|-----------------------------
 **git init**      |                                                                                      | Al ejecutar este comando, se creará un nuevo subdirectorio .git en tu directorio de trabajo actual. También se creará una nueva rama principal..
-**git add**       | &lt;file/files>                                				               | Prepara los archivos para ser confirmados en un repositorio local.
+**git add**       | &lt;file/files>                                				               | Prepara los archivos para ser confirmados en un repositorio local. Si hacer asterisco.formato, prepararás todos los archivos que sean de ese formato, y si directamente poner solo git add asterisco prepararás todo lo que haya en el directorio y que no se encuentre en el .gitignore (Pongo arterisco escrito porque el git detecta asterisco omo cursiva y no se ve)
+
 **git commit**    | &lt; -m "(Información que quieras poner para identificar el commit)" [Puedes hacer -help para ver todos los argumentos] > | Confirma los cambios del repositorio local y agrega un mensaje informativo sobre el archivo.
 **git reset**     |                                                                                      | Deshacer la operación de preparar.
 **git reset**    	| &lt; --hard HEAD~1(Retrocedemos un commit y borramos los cambios)>    | Deshacer la operación de confirmar y retrocedemos un commit, borrando todos los cambios
 **git reset**    	| &lt; --soft HEAD~1(retrocedemos un commit pero no perdemos los cambios y se quedan almacenados para un futuro commit) >                                                                                     | Deshacer la operación de confirmar pero no perdemos los cambios,quedandose almacenados para un futuro commit
 **git status**    | 			                                                                     | Identificar el estado de un fichero o ficheros en un repositorio local
 **git restore**   | &lt;Archivo>                                                  				   | Descartar los cambios de un fichero de trabajo mediante la recuperación de una versión almacendada en el repositorio local.
+**git branch**    |                                                                			 | Muestra todas las ramas locales
 **git branch**    | &lt;Nombre de la rama>                                                               | Crea una nueva rama local.
 **git switch**    | &lt;Nombre de la rama>                                                               | Cambia a otra rama local.
 
