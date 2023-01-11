@@ -127,8 +127,7 @@ Comando           | Argumentos                                                  
 **git add**       | &lt;file/files>                                				               | Prepara los archivos para ser confirmados en un repositorio local.
 **git commit**    | &lt; -m "(Información que quieras poner para identificar el commit)" [Puedes hacer -help para ver todos los argumentos] > | Confirma los cambios del repositorio local y agrega un mensaje informativo sobre el archivo.
 **git reset**     |                                                                                      | Deshacer la operación de preparar.
-**git reset**    	| &lt; --hard HEAD~1(Retrocedemos un commit y borramos los cambios) 
-ó --soft HEAD~1(retrocedemos un commit pero no perdemos los cambios y se quedan almacenados para un futuro commit) >                                                                                     | Deshacer la operación de confirmar.
+**git reset**    	| &lt; --hard HEAD~1(Retrocedemos un commit y borramos los cambios) ó --soft HEAD~1(retrocedemos un commit pero no perdemos los cambios y se quedan almacenados para un futuro commit) >                                                                                     | Deshacer la operación de confirmar.
 **git status**    | 			                                                                     | Identificar el estado de un fichero o ficheros en un repositorio local
 **git restore**   | &lt;Archivo>                                                  				   | Descartar los cambios de un fichero de trabajo mediante la recuperación de una versión almacendada en el repositorio local.
 **git branch**    | &lt;Nombre de la rama>                                                               | Crea una nueva rama local.
