@@ -125,7 +125,6 @@ Comando           | Argumentos                                                  
 ------------------|--------------------------------------------------------------------------------------|-----------------------------
 **git init**      |                                                                                      | Al ejecutar este comando, se creará un nuevo subdirectorio .git en tu directorio de trabajo actual. También se creará una nueva rama principal..
 **git add**       | &lt;file/files>                                				         | Prepara los archivos para ser confirmados en un repositorio local. Si hacer asterisco.formato, prepararás todos los archivos que sean de ese formato, y si directamente poner solo git add asterisco prepararás todo lo que haya en el directorio y que no se encuentre en el .gitignore (Pongo arterisco escrito porque el git detecta asterisco omo cursiva y no se ve).
-
 **git commit**    | &lt; -m "(Información que quieras poner para identificar el commit)" [Puedes hacer -help para ver todos los argumentos] > | Confirma los cambios del repositorio local y agrega un mensaje informativo sobre el archivo.
 **git reset**     |                                                                                      | Deshacer la operación de preparar.
 **git reset**    	| &lt; --hard HEAD~1(Retrocedemos un commit y borramos los cambios)>    | Deshacer la operación de confirmar y retrocedemos un commit, borrando todos los cambios
